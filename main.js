@@ -16,9 +16,9 @@ $(document).ready(function () {
     var selected = $(this).attr('id');
     openSection('#projects', selected);
   });
-  $('#exercises h3').click(function () {
+  $('#assignments h3').click(function () {
     var selected = $(this).attr('id');
-    openSection('#exercises', selected);
+    openSection('#assignments', selected);
   });
   $('#challenges h3').click(function () {
     var selected = $(this).attr('id');
