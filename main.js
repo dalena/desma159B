@@ -12,17 +12,17 @@ $(document).ready(function () {
     var selected = $(this).attr('id');
     openSection('#schedule', selected);
   });
-  $('#projects h3').click(function () {
+  $('#meditations h3').click(function () {
     var selected = $(this).attr('id');
-    openSection('#projects', selected);
+    openSection('#meditations', selected);
   });
   $('#assignments h3').click(function () {
     var selected = $(this).attr('id');
     openSection('#assignments', selected);
   });
-  $('#challenges h3').click(function () {
+  $('#finals h3').click(function () {
     var selected = $(this).attr('id');
-    openSection('#challenges', selected);
+    openSection('#finals', selected);
   });
 
 });
