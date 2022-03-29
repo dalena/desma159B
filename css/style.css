@@ -771,11 +771,17 @@ pre {
 
     body {
         font-size: 1em;
+        line-height: 1.2em;
+        background: none;
+    }
+    .content {
+        width: 650px;
+
     }
 
     h1 {
         font-size: 1.5em;
-        line-height: 1em
+        line-height: 1.2em;
     }
 
     h2.centFocus {
